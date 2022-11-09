@@ -3,7 +3,7 @@ from aminofix.lib.util.exceptions import *
 from aminofix.lib.util.helpers import update_deviceId
 from MessageType import *
 from PIL import Image, UnidentifiedImageError
-from ytdl.ytdownloader import download_mp3
+# from ytdl.ytdownloader import download_mp3
 import httplib2
 import re
 import time
@@ -974,10 +974,10 @@ def main():
         ban_list = get_ban_list()
         reply(data, ban_list)
 
-    @client.command(["download_song", "ds", "загрузить_песню", "зп"], condition=in_staff)
-    def download_song(data: Parameters):
-        content = data.message.split(' ')
-        download_mp3(content)
+    # @client.command(["download_song", "ds", "загрузить_песню", "зп"], condition=in_staff)
+    # def download_song(data: Parameters):
+    #     content = data.message.split(' ')
+    #     download_mp3(content)
 
     @client.command(["play", "p", "п", "плей"])
     def send_audio_message(data: Parameters):
