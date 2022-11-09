@@ -11,11 +11,11 @@ import logging
 import os
 
 
-def restart():
-    with open('C:\\Users\\Denis\\Desktop\\test\\logt.txt', 'w', encoding='utf-8') as ft,\
-         open('C:\\Users\\Denis\\Desktop\\test\\loga.txt', 'w', encoding='utf-8') as fa:
-        ft.write('ip ban')
-        fa.write('ip ban')
+# def restart():
+#     with open("C:\\Users\\Denis\\Desktop\\test\\logt.txt", 'w', encoding='utf-8') as ft,\
+#          open("C:\\Users\\Denis\\Desktop\\test\\loga.txt", 'w', encoding='utf-8') as fa:
+#         ft.write('ip ban')
+#         fa.write('ip ban')
 
 
 def main():
@@ -1215,7 +1215,7 @@ def main():
 
 
 if __name__ == '__main__':
-    try:
+    #try:
         main()
-    except IpTemporaryBan:
-        restart()
+    #except IpTemporaryBan:
+    #    restart()
