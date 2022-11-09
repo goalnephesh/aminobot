@@ -1,0 +1,13 @@
+BotAmino~=1.23.2
+amino.fix==2.3.4.11
+Amino.py==3.0.6
+BotSAmino~=1.0.4
+httplib2~=0.21.0
+Pillow~=9.2.0
+pymino~=0.5.1
+requests~=2.28.1
+websocket-client~=1.3.1
+aiohttp~=3.8.1
+websockets~=10.3
+setuptools~=56.0.0
+yt_dlp~=2022.10.4
