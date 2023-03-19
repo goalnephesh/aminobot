@@ -23,7 +23,7 @@ def main():
     logger.addHandler(handler)
     logger.addHandler(file_handler)
 
-    client = BotAmino("buchnev_dm14@mail.ru", "swag1437")
+    client = BotAmino("", "")
     client.self_callable = True
     client.no_command_message = "Нет такой команды"
     client.lock_message = "Эта команда заблокирована"
